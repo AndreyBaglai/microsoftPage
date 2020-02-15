@@ -141,6 +141,7 @@ ul {
     height: 350px;
     background: url('../img/xbox.png') no-repeat center center;
     background-size: cover;
+    margin-bottom: 20px;
 
     .content {
         width: 40%;
@@ -149,6 +150,41 @@ ul {
 
     p {
         margin: 10px 0 20px;
+    }
+}
+
+/* Carbon */
+.carbon {
+    height: 350px;
+    width: 100%;
+    background: url('../img/carbon.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+
+    .content {
+        width: 55%;
+        padding: 100px 0 0 30px;
+
+        p {
+            margin: 10px 0 20px;
+        }
+    }
+
+    .btn {
+        background: #f4f4f4;
+        color: #333;
+    }
+}
+
+/* Follow */
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+
+    a {
+        margin: 10px;
     }
 }
 
